@@ -114,7 +114,7 @@ client.on('ready', () => {
 	// Game & Streaming
 	// You can change the string to whatever you want it to say.
 	// To set a stream, add another option like this:
-	btoa.user.setGame('Command : "arra " add space and ');
+	bot.user.setGame('Command : "arra " add space and ');
 });
 
 client.on('message', msg => {
