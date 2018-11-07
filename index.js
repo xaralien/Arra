@@ -105,7 +105,7 @@ const commands = {
 		msg.channel.send("", {files: ["https://media.discordapp.net/attachments/440518356798537739/509630012425502771/45491625_327822608046422_7053969203648266240_n.jpg"]});
 	},
 	'waiting': (msg) => {
-		msg.channel.send("", {files: ["https://thumbs.gfycat.com/ImpracticalHarshBangeltiger-small.gif"]});
+		msg.channel.send("Still Waiting!", {files: ["https://thumbs.gfycat.com/ImpracticalHarshBangeltiger-small.gif"]});
 	}
 };
 
