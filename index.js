@@ -114,7 +114,7 @@ client.on('ready', () => {
 	// Game & Streaming
 	// You can change the string to whatever you want it to say.
 	// To set a stream, add another option like this:
-	bot.user.setGame('Command : "arra " add space and ');
+	client.user.setGame('Command : "arra " add space and ', 'https://www.youtube.com/watch?v=BRVxGBx6_9Q');
 });
 
 client.on('message', msg => {
