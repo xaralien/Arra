@@ -99,7 +99,7 @@ const commands = {
 		msg.channel.send("Sharingan!!!", {files: ["https://media.giphy.com/media/ZL2iRxhnDwtSE/giphy.gif"]});
 	},
 	'ciduk': (msg) => {
-		msg.channel.send("Sharingan!!!", {files: ["img/ara.jpg"]});
+		msg.channel.send("hmmm.....", {files: ["img/ara.jpg"]});
 	}
 };
 
