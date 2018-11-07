@@ -112,9 +112,9 @@ client.on('ready', () => {
 	client.user.setStatus('Online')// Your status goes here; It can be 'Online','Idle','Invisible', & 'dnd'
 
 	// Game & Streaming
-	client.user.setGame('Hello') // You can change the string to whatever you want it to say.
+	// You can change the string to whatever you want it to say.
 	// To set a stream, add another option like this:
-	btoa.user.setGame('Command : "arra " add space and ', 'https://www.youtube.com/watch?v=BRVxGBx6_9Q');
+	btoa.user.setGame('Command : "arra " add space and ');
 });
 
 client.on('message', msg => {
