@@ -85,21 +85,21 @@ const commands = {
 		if (msg.author.id == tokens.adminID) process.exit(); //Requires a node module like Forever to work.
 	},
 	'avatar': (msg) => {
-		var embed = new Discord.RichEmbed()
+		var embed = new client.RichEmbed()
             .addField("Your Avatar", "hmmm....")
-            .setImage(message.author.avatarURL)
+            .setImage(msg.author.avatarURL)
             msg.channel.sendEmbed(embed);
 	},
 	'info': (msg) => {
-		var embed = new Discord.RichEmbed()
+		var embed = new client.RichEmbed()
                 .addField("Hello!", "My name is Arra, This is from the name of my owner Arra");
             msg.channel.sendEmbed(embed);
 	},
 	'angry': (msg) => {
-		message.channel.send("Sharingan!!!", {files: ["https://media.giphy.com/media/ZL2iRxhnDwtSE/giphy.gif"]});
+		msg.channel.send("Sharingan!!!", {files: ["https://media.giphy.com/media/ZL2iRxhnDwtSE/giphy.gif"]});
 	},
 	'ciduk': (msg) => {
-		message.channel.send("Sharingan!!!", {files: ["img/ara.jpg"]});
+		msg.channel.send("Sharingan!!!", {files: ["img/ara.jpg"]});
 	}
 };
 
