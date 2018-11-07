@@ -100,6 +100,9 @@ const commands = {
 	},
 	'ciduk': (msg) => {
 		msg.channel.send("hmmm.....", {files: ["img/ara.jpg"]});
+	},
+	'ferguso': (msg) => {
+		msg.channel.send("", {files: ["https://media.discordapp.net/attachments/440518356798537739/509630012425502771/45491625_327822608046422_7053969203648266240_n.jpg"]});
 	}
 };
 
