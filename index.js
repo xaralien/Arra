@@ -117,7 +117,7 @@ client.on('ready', () => {
 	// Game & Streaming
 	// You can change the string to whatever you want it to say.
 	// To set a stream, add another option like this:
-	client.user.setGame('w/Darkness');
+	client.user.setGame('w/darkness');
 });
 
 client.on('message', msg => {
