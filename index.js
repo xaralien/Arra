@@ -119,7 +119,7 @@ client.on('ready', () => {
 	// To set a stream, add another option like this:
 	client.user.setPresence({
         game: {
-            name: 'with depression',
+            name: 'Ur Bullshit',
             type: "LISTENING"
         }
     });
