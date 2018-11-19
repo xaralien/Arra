@@ -117,7 +117,13 @@ client.on('ready', () => {
 	// Game & Streaming
 	// You can change the string to whatever you want it to say.
 	// To set a stream, add another option like this:
-	client.user.setActivity('Ur Bullshit', { type: 'Listening' });
+	client.user.setPresence({
+        game: {
+            name: 'with depression',
+            type: "Listening",
+            url: "https://www.twitch.tv/enderindo"
+        }
+    });
 });
 
 client.on('message', msg => {
