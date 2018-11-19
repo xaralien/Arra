@@ -120,7 +120,7 @@ client.on('ready', () => {
 	client.user.setPresence({
         game: {
             name: 'with depression',
-            type: "STREAMING",
+            type: "LISTENING",
             url: "https://www.twitch.tv/enderindo"
         }
     });
