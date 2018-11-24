@@ -104,6 +104,12 @@ const commands = {
 	'ferguso': (msg) => {
 		msg.channel.send("", {files: ["https://media.discordapp.net/attachments/440518356798537739/509630012425502771/45491625_327822608046422_7053969203648266240_n.jpg"]});
 	},
+	'hello': (msg) => {
+		msg.channel.send("", {files: ["https://image.myanimelist.net/ui/1Qejjs8xIEoZvC_d6tjFlfgWnKTVmMY1zIE63ewr3ojUbcPxI_7mRnSU1oGENZNMf9YAKf3-Fw_IxHIiSJCNQFQa8vpkT49s_l3DzSeDy61U-WisEXpk1ZkLI4Xl5NU5nOq0p20JYrsQ1UhvlHtmvA"]});
+	},
+	'baka': (msg) => {
+		msg.channel.send("", {files: ["http://pm1.narvii.com/6511/5f5c48c50768d5ac75a9e7ff6239e41fbcabcff2_00.jpg"]});
+	},
 	'waiting': (msg) => {
 		msg.channel.send("Still Waiting!", {files: ["https://thumbs.gfycat.com/ImpracticalHarshBangeltiger-small.gif"]});
 	}
