@@ -114,7 +114,7 @@ const commands = {
 		msg.channel.send("", {files: ["https://i.makeagif.com/media/4-11-2015/iPOARQ.gif"]});
 	},
 	'waiting': (msg) => {
-		msg.channel.send("Still Waiting!", {files: ["https://thumbs.gfycat.com/ImpracticalHarshBangeltiger-small.gif"]});
+		msg.channel.send("Still Waiting!", {files: ["https://www.lovequotesmessages.com/wp-content/uploads/2018/04/puppet_still_waiting_meme1.jpg"]});
 	}
 };
 
